@@ -19,7 +19,7 @@ export class AppService {
 
   async createSession(xYAuthDigest: string) {
     const headers = {
-      // 'X-Yoti-API-Key': '4729c5e6-0055-4fbf-b771-269c09ce9a6d',
+      // 'X-Yoti-API-Key': '',
       'X-Yoti-Auth-Digest': xYAuthDigest,
       'X-Yoti-Timestamp': this.timestamp,
       'Content-Type': 'application/json',
